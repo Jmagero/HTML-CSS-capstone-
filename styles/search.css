@@ -88,6 +88,9 @@ aside {
 
 .btn {
   background-color: #d35266;
+  border-radius: 0%;
+  height: 3rem;
+  width: 10rem;
 }
 
 .btn:hover {
@@ -97,6 +100,12 @@ aside {
 .logo {
   width: 4rem;
   height: 4rem;
+}
+
+.text-area {
+  height: 3rem;
+  width: 10rem;
+  border: none;
 }
 
 .main-container {
@@ -117,7 +126,7 @@ aside {
 }
 
 .search-btn {
-  padding: 0.7rem 0.5rem;
+  padding: 0.4rem 1.5rem;
 }
 
 .heading {

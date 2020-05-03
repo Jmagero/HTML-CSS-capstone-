@@ -53,16 +53,14 @@ p,
 }
 
 .nav-list a {
-  padding: 0 0.5rem;
+  padding: 0 2.5rem;
+  font-size: large;
 }
 
 .socials a {
   color: #888;
   font-size: 1.4rem;
   padding: 0 0.3rem;
-  border: 0.05rem solid #888;
-  border-radius: 3rem;
-  background-color: #383838;
 }
 
 .footer-bottom span,
@@ -93,6 +91,9 @@ p,
 }
 
 .btn {
+  border-radius: 0%;
+  height: 3rem;
+  width: 10rem;
   background-color: #d35266;
 }
 
@@ -133,7 +134,9 @@ p,
 }
 
 .text-area {
-  height: 2.4rem;
+  height: 3rem;
+  width: 10rem;
+  border: none;
 }
 
 .main-form {
@@ -141,7 +144,7 @@ p,
 }
 
 .search-btn {
-  padding: 0.4rem 0.5rem;
+  padding: 0.4rem 1.5rem;
 }
 
 .carousel-inner {
