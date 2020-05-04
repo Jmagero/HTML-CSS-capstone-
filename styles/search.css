@@ -128,7 +128,14 @@ aside {
   top: 6rem;
 }
 
-.heading h1 {
+.company-logo {
+  max-width: max-content;
+  margin: auto;
+  position: relative;
+  top: 3rem;
+}
+
+.company-logo-heading h1 {
   font-size: xx-large;
 }
 
