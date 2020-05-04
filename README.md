@@ -33,7 +33,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Jmagero/HTML-CSS-capstone-/e838c68a3c7058516703b5b9267607d9bf6e0769/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Jmagero/HTML-CSS-capstone-/5b09467bacdb855648d2ac8b89d80aa28a1f4317/index.html)
 
 
 ## Getting Started
