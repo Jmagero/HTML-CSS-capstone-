@@ -260,8 +260,8 @@ p,
 }
 
 @media only screen and (max-width: 768px) {
-  .accessory,
-  .headwear {
+  .headwear,
+  .accessory {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -276,47 +276,6 @@ p,
 
   .footer-bottom-info {
     width: 12rem;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .first-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .carousel-pad img {
-    width: 100%;
-  }
-
-  .footer-bottom h2 {
-    font-size: 0.7rem;
-  }
-
-  .price {
-    font-size: 0.5rem;
-  }
-
-  .flex-container {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 6rem;
-  }
-
-  .get {
-    font-size: 0.5rem !important;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .text-area {
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 260px) {
-  .help {
-    font-size: 0.2rem !important;
   }
 }
 

@@ -47,7 +47,8 @@ aside {
 }
 
 .nav-list a {
-  padding: 0 0.5rem;
+  padding: 0 2.5rem;
+  font-size: large;
 }
 
 .search-item h3,
