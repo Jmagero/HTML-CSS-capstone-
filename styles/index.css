@@ -274,7 +274,7 @@ p,
     grid-template-columns: repeat(2, 1fr);
     margin: 0.5rem 0.1rem;
   }
- 
+
   .dropdown {
     display: none;
   }
@@ -292,10 +292,6 @@ p,
   .headwear,
   .accessory {
     display: flex;
-  }
-  
-  .carousel-pad img {
-    width: 100%;
   }
 
   .footer-bottom h2 {
