@@ -293,6 +293,7 @@ p,
   .accessory {
     display: flex;
   }
+  
   .carousel-pad img {
     width: 100%;
   }
@@ -327,5 +328,4 @@ p,
     font-size: 0.2rem !important;
   }
 }
-
 
