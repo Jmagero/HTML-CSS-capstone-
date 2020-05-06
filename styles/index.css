@@ -269,7 +269,7 @@ p,
   .flex-grid {
     display: flex;
     flex-direction: row;
-    flex-flow: wrap;
+    flex-wrap: wrap;
     flex: 0 1 auto;
     justify-content: space-between;
   }
@@ -301,7 +301,7 @@ p,
   .flex-grid {
     display: flex;
     flex-direction: column;
-    flex-flow: wrap;
+    flex-wrap: wrap;
     flex: 0 1 auto;
     justify-content: space-between;
   }
