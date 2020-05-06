@@ -174,11 +174,9 @@ p,
 
 .headwear,
 .accessory {
-  display: flex;
-}
-
-.card-accessory {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr 0.1fr;
+  grid-gap: 1rem;
 }
 
 .dropup {
@@ -268,11 +266,22 @@ p,
 }
 
 @media only screen and (max-width: 768px) {
-  .headwear,
-  .accessory {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0.5rem 0.1rem;
+  .flex-grid {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    flex: 0 1 auto;
+    justify-content: space-between;
+  }
+
+  .flex-col {
+    display: flex;
+    width: 47%;
+    margin: 0.3rem 0;
+  }
+
+  .accessory-arrow {
+    display: none;
   }
 
   .dropdown {
@@ -289,9 +298,18 @@ p,
 }
 
 @media only screen and (max-width: 576px) {
-  .headwear,
-  .accessory {
+  .flex-grid {
     display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    flex: 0 1 auto;
+    justify-content: space-between;
+  }
+
+  .flex-col {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .footer-bottom h2 {
@@ -314,6 +332,29 @@ p,
 }
 
 @media only screen and (max-width: 425px) {
+  .flex-grid {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    flex: 0 1 auto;
+    justify-content: space-between;
+  }
+
+  .flex-col {
+    display: flex;
+    width: 98%;
+    margin: 0.3rem 0;
+  }
+
+  .carousel-sec {
+    width: 100%;
+  
+  }
+
+  .carousel-arrow {
+    display: none;
+  }
+
   .text-area {
     width: 70%;
   }
