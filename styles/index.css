@@ -346,13 +346,25 @@ p,
     margin: 0.3rem 0;
   }
 
-  .carousel-sec {
-    width: 100%;
-  
+  .carousel-img {
+    max-width: 150px;
   }
 
   .carousel-arrow {
     display: none;
+  }
+
+  .main-form {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .accessory-heading {
+    width: 120px;
+  }
+  
+  .logo-img {
+    width: 100px;
   }
 
   .text-area {
@@ -362,7 +374,30 @@ p,
 
 @media only screen and (max-width: 260px) {
   .get {
-    font-size: 0.2rem !important;
+    font-size: 0.5rem !important;
+  }
+
+  .carousel-img {
+    max-width: 100px;
+  }
+
+  .footer-bottom {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 100px;
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+  }
+
+  .footer-list {
+    width: 95%;
+    margin: 0 auto;
   }
 }
 

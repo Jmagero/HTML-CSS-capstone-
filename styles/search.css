@@ -256,6 +256,60 @@ aside {
 @media only screen and (max-width: 768px) {
   .cart {
     font-size: 0.5rem;
+    width: 100px;
+    margin-left: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+  .main-form {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .cart {
+    width: 100px;
+    margin-left: 0.5rem;
+    font-size: 0.3rem;
+  }
+
+  .other-pages {
+    display: none;
+  }
+  
+  .search-results {
+    font-size: 0.7rem;
   }
 }
 
+@media only screen and (max-width: 396px) {
+  .main-form {
+    max-width: 100px;
+    margin: 0 auto;
+    font-size: 0.4rem;
+  }
+  
+  .logo-img {
+    max-width: 100px;
+  }
+
+  .cart {
+    width: 100px;
+    margin-left: 0.5rem;
+    font-size: 0.3rem;
+  }
+
+  .other-pages {
+    display: none;
+  }
+  
+  .search-results {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .cart {
+    display: none;
+  }
+}
