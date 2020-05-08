@@ -101,10 +101,10 @@ p,
   background-color: #830c1e;
 }
 
-.logo {
+/* .logo {
   width: 4rem;
   height: 4rem;
-}
+} */
 
 .main-container {
   background-color: rgb(255, 255, 255);
@@ -154,6 +154,7 @@ p,
 .carousel-item img {
   width: 25rem;
   height: 15rem;
+  object-fit: contain;
 }
 
 .carousel-sec {
@@ -276,7 +277,7 @@ p,
 
   .flex-col {
     display: flex;
-    width: 47%;
+    width: 49%;
     margin: 0.3rem 0;
   }
 
@@ -310,6 +311,10 @@ p,
     display: flex;
     width: 90%;
     margin: 0 auto;
+  }
+
+  .carousel-item {
+    display: none;
   }
 
   .footer-bottom h2 {
@@ -353,23 +358,43 @@ p,
   .carousel-arrow {
     display: none;
   }
+  
+  .carousel-sec {
+    display: none !important;
+  }
+  
+  
+  /* .logo {
+  display: none;
+  } */
 
   .main-form {
     max-width: 250px;
     margin: 0 auto;
   }
-
+  
   .accessory-heading {
-    width: 120px;
-  }
-
-  .logo-img {
-    width: 100px;
-  }
+    max-width: 100%;
+    margin: 0 0.1rem;
+  } 
 
   .text-area {
     width: 70%;
   }
+}
+
+@media only screen and (max-width: 375px) {
+ .home-heading {
+   font-size: 0.5rem;
+ }
+
+ .logo {
+   display: none;
+ }
+
+ .accessory-heading {
+   border: none !important;
+ }
 }
 
 @media only screen and (max-width: 260px) {
