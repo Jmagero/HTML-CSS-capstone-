@@ -1,26 +1,15 @@
 @import url(//db.onlinewebfonts.com/c/5d6f50ed2dde0e4ad455448f896c09f0?family=Gotham);
 @import url(//db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue);
-
 @font-face {
   font-family: "Gotham Rounded";
   src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot");
-  src:
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");
+  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");
 }
 
 @font-face {
   font-family: "Helvetica Neue";
   src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot");
-  src:
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg");
+  src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg");
 }
 
 body {
@@ -53,7 +42,7 @@ p,
 }
 
 .nav-list a {
-  padding: 0 2.5rem;
+  padding: 0 2rem;
   font-size: large;
 }
 
@@ -100,11 +89,6 @@ p,
 .btn:hover {
   background-color: #830c1e;
 }
-
-/* .logo {
-  width: 4rem;
-  height: 4rem;
-} */
 
 .main-container {
   background-color: rgb(255, 255, 255);
@@ -292,9 +276,13 @@ p,
   .carousel-body {
     padding-left: 0 !important;
   }
-
+  
   .footer-bottom-info {
     width: 12rem;
+  }
+
+  .background {
+    display: none;
   }
 }
 
@@ -334,6 +322,7 @@ p,
   .get {
     font-size: 0.5rem !important;
   }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -350,7 +339,6 @@ p,
     width: 98%;
     margin: 0.3rem 0;
   }
-
   .carousel-img {
     max-width: 150px;
   }
@@ -358,20 +346,15 @@ p,
   .carousel-arrow {
     display: none;
   }
-  
+
   .carousel-sec {
     display: none !important;
   }
-  
-  .main-form {
-    max-width: 250px;
-    margin: 0 auto;
-  }
-  
+
   .accessory-heading {
     max-width: 100%;
     margin: 0 0.1rem;
-  } 
+  }
 
   .text-area {
     width: 70%;
@@ -379,24 +362,19 @@ p,
 }
 
 @media only screen and (max-width: 375px) {
- .home-heading {
-   font-size: 0.5rem;
- }
+  .logo {
+    display: none;
+  }
 
- .logo {
-   display: none;
- }
+  .accessory-heading {
+    border: none !important;
+  }
 
- .accessory-heading {
-   border: none !important;
- }
-
- .footer-top {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
- }
-
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 260px) {
@@ -412,7 +390,7 @@ p,
     width: 95%;
     margin: 0 auto;
   }
-  
+
   .flex-container {
     display: flex;
     flex-wrap: nowrap;

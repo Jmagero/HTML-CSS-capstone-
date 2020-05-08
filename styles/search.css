@@ -1,26 +1,15 @@
 @import url(//db.onlinewebfonts.com/c/5d6f50ed2dde0e4ad455448f896c09f0?family=Gotham);
 @import url(//db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue);
-
 @font-face {
   font-family: "Gotham Rounded";
   src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot");
-  src:
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");
+  src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg");
 }
 
 @font-face {
   font-family: "Helvetica Neue";
   src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot");
-  src:
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg");
+  src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg");
 }
 
 body {
@@ -51,7 +40,8 @@ aside {
   font-size: large;
 }
 
-.search-item h3,
+.search-item
+h3,
 .search-item p,
 aside {
   line-height: 1.7;
@@ -265,7 +255,7 @@ aside {
   }
 }
 
-@media only screen and (max-width: 700px) {  
+@media only screen and (max-width: 700px) {
   .nav-logo {
     display: none;
   }
@@ -281,26 +271,13 @@ aside {
   .other-pages {
     display: none;
   }
-  
+
   .search-results {
     font-size: 0.7rem;
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .main-form {
-    width: 20%;
-    margin: 0 auto;
-  }
-}
-
 @media only screen and (max-width: 396px) {
-  .main-form {
-    width: 20%;
-    margin: 0 auto;
-    font-size: 0.4rem;
-  }
-  
   .nav-logo {
     display: none !important;
   }
@@ -314,11 +291,10 @@ aside {
   .other-pages {
     display: none;
   }
-  
+
   .search-results {
     font-size: 0.7rem;
   }
-
 }
 
 @media only screen and (max-width: 260px) {
