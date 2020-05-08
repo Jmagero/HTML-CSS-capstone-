@@ -47,7 +47,7 @@ aside {
 }
 
 .nav-list a {
-  padding: 0 2.5rem;
+  padding: 0 2rem;
   font-size: large;
 }
 
@@ -89,11 +89,6 @@ aside {
 .btn:hover {
   background-color: #830c1e;
 }
-
-/* .logo {
-  width: 4rem;
-  height: 4rem;
-} */
 
 .text-area {
   height: 3rem;
@@ -241,7 +236,7 @@ aside {
   }
 
   .aside {
-    display: none;
+    display: none !important;
   }
 
   .footer-bottom-info {
@@ -251,9 +246,18 @@ aside {
   .heading h1 {
     font-size: large;
   }
-}
 
-@media only screen and (max-width: 768px) {
+  .background {
+    display: none;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .cart {
     font-size: 0.5rem;
     width: 100px;
@@ -261,12 +265,13 @@ aside {
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .main-form {
-    width: 25%;
-    margin: 0 auto;
+@media only screen and (max-width: 700px) {  
+  .nav-logo {
+    display: none;
   }
-  
+}
+
+@media only screen and (max-width: 425px) {
   .cart {
     width: 100px;
     margin-left: 0.5rem;
@@ -280,14 +285,6 @@ aside {
   .search-results {
     font-size: 0.7rem;
   }
-
-  .footer-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
 }
 
 @media only screen and (max-width: 425px) {
