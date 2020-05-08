@@ -90,10 +90,10 @@ aside {
   background-color: #830c1e;
 }
 
-.logo {
+/* .logo {
   width: 4rem;
   height: 4rem;
-}
+} */
 
 .text-area {
   height: 3rem;
@@ -263,7 +263,7 @@ aside {
 
 @media only screen and (max-width: 425px) {
   .main-form {
-    max-width: 200px;
+    width: 25%;
     margin: 0 auto;
   }
   
@@ -279,18 +279,33 @@ aside {
   
   .search-results {
     font-size: 0.7rem;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  .main-form {
+    width: 20%;
+    margin: 0 auto;
   }
 }
 
 @media only screen and (max-width: 396px) {
   .main-form {
-    max-width: 100px;
+    width: 20%;
     margin: 0 auto;
     font-size: 0.4rem;
   }
   
-  .logo-img {
-    max-width: 100px;
+  .nav-logo {
+    display: none !important;
   }
 
   .cart {
@@ -306,6 +321,7 @@ aside {
   .search-results {
     font-size: 0.7rem;
   }
+
 }
 
 @media only screen and (max-width: 260px) {

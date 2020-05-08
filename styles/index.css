@@ -363,11 +363,6 @@ p,
     display: none !important;
   }
   
-  
-  /* .logo {
-  display: none;
-  } */
-
   .main-form {
     max-width: 250px;
     margin: 0 auto;
@@ -395,6 +390,13 @@ p,
  .accessory-heading {
    border: none !important;
  }
+
+ .footer-top {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
 }
 
 @media only screen and (max-width: 260px) {
