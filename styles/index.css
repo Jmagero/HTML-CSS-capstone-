@@ -333,7 +333,7 @@ p,
   .flex-grid {
     display: flex;
     flex-direction: column;
-    flex-flow: wrap;
+    flex: wrap;
     flex: 0 auto;
     justify-content: space-between;
   }
