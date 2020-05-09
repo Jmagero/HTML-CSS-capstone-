@@ -260,6 +260,10 @@ aside {
   .nav-logo {
     display: none;
   }
+
+  .search-results {
+    font-size: 0.7rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -274,7 +278,8 @@ aside {
   }
 
   .search-results {
-    font-size: 0.7rem;
+    width: 90%;
+    font-size: 0.5rem;
   }
 }
 
@@ -289,17 +294,23 @@ aside {
     font-size: 0.3rem;
   }
 
-  .other-pages {
+  .description {
     display: none;
   }
 
-  .search-results {
+  .footer-top {
     font-size: 0.7rem;
   }
 }
 
-@media only screen and (max-width: 260px) {
+@media only screen and (max-width: 295px) {
   .cart {
     display: none;
+  }
+
+  .card-title,
+  .card-text,
+  .footer-bottom {
+    font-size: 0.7rem;
   }
 }
