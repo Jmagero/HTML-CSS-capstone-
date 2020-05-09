@@ -245,7 +245,6 @@ p,
     width: 100%;
     max-width: 100%;
   }
-
   .footer-bottom-info {
     width: 18rem;
   }
@@ -259,25 +258,20 @@ p,
     flex: 0 1 auto;
     justify-content: space-between;
   }
-
   .flex-col {
     display: flex;
     width: 49%;
     margin: 0.3rem 0;
   }
-
   .accessory-arrow {
     display: none;
   }
-
   .dropdown {
     display: none;
   }
-
   .carousel-body {
     padding-left: 0 !important;
   }
-  
   .footer-bottom-info {
     width: 12rem;
   }
@@ -288,42 +282,34 @@ p,
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex: 0 1 auto;
+    flex: 0 auto;
     justify-content: space-between;
   }
-
   .flex-col {
     display: flex;
     width: 90%;
     margin: 0 auto;
   }
-
   .carousel-item {
     display: none;
   }
-
   .footer-bottom h2 {
     font-size: 0.7rem;
   }
-
   .price {
     font-size: 0.5rem;
   }
-
   .flex-container {
     width: 100%;
     max-width: 100%;
     padding-left: 6rem;
   }
-
   .get {
     font-size: 0.5rem !important;
   }
-
   .home-heading-con {
     display: none;
   }
-
   .carousel-sec {
     display: none !important;
   }
@@ -337,28 +323,23 @@ p,
     flex: 0 1 auto;
     justify-content: space-between;
   }
-
   .flex-col {
     display: flex;
     width: 98%;
     margin: 0.3rem 0;
   }
-  
   .main-form {
     width: 80%;
     margin: 0 auto;
     font-size: smaller;
   }
-
   .accessory-heading {
     max-width: 100%;
     margin: 0 0.1rem;
   }
-
   .text-area {
     width: 70%;
   }
-
   .footer-top {
     display: flex;
     flex-direction: column;
@@ -370,22 +351,18 @@ p,
   .logo {
     display: none;
   }
-
   .accessory-heading {
     border: none !important;
   }
-
   .main-form {
     width: 70%;
     margin: 0 auto;
   }
-
   .text-area {
     width: 50%;
     font-size: xx-small;
     padding: 0 5px !important;
   }
-  
   .footer {
     font-size: 0.7rem;
   }
@@ -395,12 +372,10 @@ p,
   .get {
     font-size: 0.5rem !important;
   }
-
   .footer-bottom {
     width: 80%;
     margin: 0 auto;
   }
-
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
@@ -409,7 +384,6 @@ p,
     max-width: 200px;
     justify-content: center;
   }
-
   .footer-list {
     width: 80%;
     margin: 0 auto;
