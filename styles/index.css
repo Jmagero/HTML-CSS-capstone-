@@ -334,7 +334,7 @@ p,
     display: flex;
     flex-direction: column;
     flex-flow: wrap;
-    flex: 0 1 auto;
+    flex: 0 auto;
     justify-content: space-between;
   }
 
@@ -409,7 +409,7 @@ p,
     max-width: 200px;
     justify-content: center;
   }
-  
+
   .footer-list {
     width: 80%;
     margin: 0 auto;
