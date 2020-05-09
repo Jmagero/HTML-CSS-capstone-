@@ -327,6 +327,10 @@ p,
   .carousel-sec {
     display: none !important;
   }
+
+  .search-btn {
+    padding: 0.4rem 1rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
